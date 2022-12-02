@@ -46,7 +46,7 @@ public class Main {
     }
 
     private static void hacerQueVuelen(Voladores volador) {
-        System.out.println("Este personaje tiene " + volador.NUMERO_DE_ALAS + " alas");
+        System.out.println("Este personaje tiene " + Voladores.NUMERO_DE_ALAS + " alas");
         volador.volar();
     }
 

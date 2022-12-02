@@ -2,5 +2,6 @@ package poderes;
 
 public interface Unicornio {
     
-    void usarCuerno();
+    // En las interfaces, se puede omitir el "public abstract"
+    public abstract void usarCuerno();
 }
